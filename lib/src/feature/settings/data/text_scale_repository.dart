@@ -1,4 +1,4 @@
-import 'package:sizzle_starter/src/feature/settings/data/text_scale_datasource.dart';
+import 'package:awesome_trivia/src/feature/settings/data/text_scale_datasource.dart';
 
 /// Theme repository that persists and retrieves text scale informarion
 abstract interface class TextScaleRepository {
