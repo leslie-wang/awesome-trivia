@@ -1,6 +1,6 @@
 {
   "@@locale": "es",
-  "appTitle": "sizzle_starter",
+  "appTitle": "awesome_trivia",
   "@appTitle": {
     "description": "El título de la aplicación"
   },

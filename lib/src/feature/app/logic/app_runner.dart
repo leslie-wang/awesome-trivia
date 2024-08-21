@@ -1,14 +1,14 @@
 import 'dart:async';
 
+import 'package:awesome_trivia/src/core/constant/config.dart';
+import 'package:awesome_trivia/src/core/utils/app_bloc_observer.dart';
+import 'package:awesome_trivia/src/core/utils/refined_logger.dart';
+import 'package:awesome_trivia/src/feature/app/widget/app.dart';
+import 'package:awesome_trivia/src/feature/initialization/logic/composition_root.dart';
+import 'package:awesome_trivia/src/feature/initialization/widget/initialization_failed_app.dart';
 import 'package:bloc_concurrency/bloc_concurrency.dart' as bloc_concurrency;
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sizzle_starter/src/core/constant/config.dart';
-import 'package:sizzle_starter/src/core/utils/app_bloc_observer.dart';
-import 'package:sizzle_starter/src/core/utils/refined_logger.dart';
-import 'package:sizzle_starter/src/feature/app/widget/app.dart';
-import 'package:sizzle_starter/src/feature/initialization/logic/composition_root.dart';
-import 'package:sizzle_starter/src/feature/initialization/widget/initialization_failed_app.dart';
 
 /// {@template app_runner}
 /// A class which is responsible for initialization and running the app.
